@@ -42,7 +42,7 @@ namespace PointOfSaleTerminalTests
             }
             var result = posTerminal.CalculateTotal();
 
-            // Arrange
+            // Assert
             result.Should().Be(total);
 
         }
